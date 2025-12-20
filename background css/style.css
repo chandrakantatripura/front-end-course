@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://i.pinimg.com/736x/2b/76/fb/2b76fb6008c1b5e2841c156a50b90d4a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(48, 50, 48);
+    background-blend-mode: multiply;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+    
+
+}
+.first {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(150px,1fr));
+        gap: 20px;
+        height: 80vh;
+        width: 90vw;
+        background-image: url("https://i.pinimg.com/736x/2b/76/fb/2b76fb6008c1b5e2841c156a50b90d4a.jpg");
+        background-repeat: no-repeat;
+        background-color: rgba(183, 201, 218,5.99);
+        background-blend-mode: multiply;
+        background-size: 100%;
+        border-radius: 10px;
+        background-repeat: repeat-y;
+        overflow: auto;
+        scrollbar-width: none;
+                
+    }
+
+
+ .inside {
+        border : 2px solid white;
+        border-radius: 10px;
+        margin: 10px;
+
+        min-height: 150px;
+
+
+
+ }   
+
+ 
+ .one { 
+       background-image: url("https://i.pinimg.com/736x/2b/1e/c9/2b1ec96cbc5a2fcdbb15582459258329.jpg");
+       background-size: cover;
+
+ }
+ 
+ .three { 
+       background-image: url("https://i.pinimg.com/1200x/e2/9f/a6/e29fa6a4712a30099ad058f385e0709a.jpg");
+       background-size: cover;
+
+ }
+ .four { 
+       background-image: url("https://i.pinimg.com/1200x/25/bb/5a/25bb5aa79b4d21d90ef474216f246910.jpg");
+       background-size: cover;
+
+ }
+ .five { 
+       background-image: url("https://i.pinimg.com/1200x/35/e2/ba/35e2ba597996f7c28dc6eeea68e62e62.jpg");
+       background-size: cover;
+
+ }
+ .six { 
+       background-image: url("https://i.pinimg.com/1200x/23/b7/b1/23b7b1226c74470cc9846e5c4eee6ac7.jpg");
+       background-size: cover;
+
+ }
+ .seven { 
+       background-image: url("https://i.pinimg.com/736x/a0/4d/62/a04d624a3b82b6fb79e482c2b60309f9.jpg");
+       background-size: cover;
+
+ }
+ .eight { 
+       background-image: url("https://i.pinimg.com/1200x/97/44/0f/97440f55fefa8fcd01ebf5cb870dad73.jpg");
+       background-size: cover;
+
+ }
+ .two { 
+       background-image: url("https://i.pinimg.com/1200x/35/95/97/359597df3a9bde033ec60b155927084c.jpg");
+
+       background-size: cover;
+
+ }
+
